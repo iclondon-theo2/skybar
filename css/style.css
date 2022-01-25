@@ -8,6 +8,11 @@
 	src: url("../fonts/Vonique 92_D.otf")
 }
 
+@font-face {
+	font-family: 'OCR A Extended';
+	src: url("../fonts/OCRAEXT.TTF")
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -47,6 +52,10 @@ p {
 	letter-spacing: 1.1px;
 	margin: 5px 10px 5px 10px;
 	font-size: 1.1em;
+}
+
+div.menu-title {
+	max-width: 100%;
 }
 
 .fooddesc {
