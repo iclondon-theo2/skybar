@@ -2,7 +2,11 @@
 /* CSS Document */
 
 @import url('http://fonts.cdnfonts.com/css/ocr-a-extended');
-@import url('http://fonts.cdnfonts.com/css/vonique-92');
+
+@font-face {
+	font-family: 'Vonique 92';
+	src: url("../fonts/Vonique 92_D.otf")
+}
 
 html, body {
   height: 100%;
